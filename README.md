@@ -31,5 +31,6 @@ UPX 3.96        Markus Oberhumer, Laszlo Molnar & John Reiser   Jan 23rd 2020
    --------------------   ------   -----------   -----------
     933968 <-    362604   38.82%   linux/amd64   chall
 
-Unpacked 1 file.```
+Unpacked 1 file.
+```
 
