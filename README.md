@@ -55,3 +55,10 @@ en esta parte del código podemos ver la función que comprueba si se esta ejecu
 ![amancio_1](https://github.com/m0riart3/Wanna-Rev/blob/main/amancio_1.PNG)
 ![amancio_2](https://github.com/m0riart3/Wanna-Rev/blob/main/amancio_2.PNG)
 ![amancio_3](https://github.com/m0riart3/Wanna-Rev/blob/main/amancio_3.PNG)
+
+podemos ver que efectivamente en esta función esta la flag, pero para llegar a ella tenemos que hacer que esta función se ejecute, para ello, revisamos el main y vemos que hay una función llamada xpg_basename() que comprueba el parametro 2 del main, que leyendo un poco sobre C, podemos saber que es el nombre del binario. Más adelante en el main comprueba el nombre del binario con la string "cUa.fSg", cambiamos el nombre del binario y ejecutamos el binario para obtener la flag
+```
+m0riart3㉿kali)-[~/Desktop]
+└─$ ./cUa.fSg 
+UCA{g00d}
+```
