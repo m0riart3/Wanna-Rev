@@ -46,4 +46,5 @@ Ya teniendolo desempaquetado, lo primero sería comprobar que tipo de proteccion
 ```
 viendo el output del comando, podemos ver que tiene alguna proteccion en la pila, el siguiente paso sería ejecutarlo, pero al hacerlo no ocurre nada, así que el siguiente paso sería utilizar el debugger,pero al hacerlo obtenemos lo siguiente
 ![gdb](https://github.com/m0riart3/Wanna-Rev/blob/main/gdb.PNG)
+
 con este output podemos suponer que también tiene antidebugger, por último queda utilizar ghidra y ver el código fuente tal cual
