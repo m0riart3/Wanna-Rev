@@ -33,4 +33,17 @@ UPX 3.96        Markus Oberhumer, Laszlo Molnar & John Reiser   Jan 23rd 2020
 
 Unpacked 1 file.
 ```
+## Análisis Dinámico
+Ya teniendolo desempaquetado, lo primero sería comprobar que tipo de protecciones tiene el binario, para ello usamos el comando checksec
+```(m0riart3㉿kali)-[~/Desktop]
+└─$ checksec --file chall
+[*] '/home/m0riart3/Desktop/chall'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+```
+viendo el output del comando, podemos ver que tiene alguna proteccion en la pila, el siguiente paso sería ejecutarlo, pero al hacerlo no ocurre nada, así que el siguiente paso sería utilizar el debugger,pero al hacerlo obtenemos lo siguiente
+![gdb](https://github.com/m0riart3/Wanna-Rev/blob/main/gdb.PNG)
 
