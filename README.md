@@ -20,4 +20,16 @@ esto nos indica que se ha usado UPX para empaquetar el código, en otra parte de
 EVx!
 EVx!
 ```
-por lo que podemos medio saber por donde empezar, tendríamos que cambiar la extensión de nuestro archivo, quitarle el .exe y arreglar a nivel hexadecimal el archivo para poder pasar al análisis dinámico
+por lo que podemos medio saber por donde empezar, tendríamos que cambiar la extensión de nuestro archivo, quitarle el .exe y arreglar a nivel hexadecimal el archivo para poder pasar al análisis dinámico, para ello abrimos el binario con el comando bless. Después de cambiar la extension y de cambiar cada EVX! que hubiera en el hexadecimal por UPX! desempaquetamos el binario con UPX para poder ver por fin el código utilizando el siguiente comando
+```(m0riart3㉿kali)-[~/Desktop/upx-3.96-arm64_linux]
+└─$ upx -d ../chall
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2020
+UPX 3.96        Markus Oberhumer, Laszlo Molnar & John Reiser   Jan 23rd 2020
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+    933968 <-    362604   38.82%   linux/amd64   chall
+
+Unpacked 1 file.```
+
