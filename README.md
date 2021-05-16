@@ -51,6 +51,7 @@ con este output podemos suponer que también tiene antidebugger, por último que
 ![main](https://github.com/m0riart3/Wanna-Rev/blob/main/main.PNG)
 
 en esta parte del código podemos ver la función que comprueba si se esta ejecutando el binario con un debugger, quitando eso queda una comparación que hace que se ejecuten las funciones juanlu y amancio, donde juanlu esta llena de fake flags, por lo tanto la función que nos interesa estará en amancio
+
 ![amancio_1](https://github.com/m0riart3/Wanna-Rev/blob/main/amancio_1.PNG)
 ![amancio_2](https://github.com/m0riart3/Wanna-Rev/blob/main/amancio_2.PNG)
 ![amancio_3](https://github.com/m0riart3/Wanna-Rev/blob/main/amancio_3.PNG)
