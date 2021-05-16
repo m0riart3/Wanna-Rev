@@ -1,6 +1,6 @@
 # Wanna-Rev
 ## Descripción
-
+![Descripcion](https://github.com/m0riart3/Wanna-Rev/blob/main/Descripcion.PNG)
 
 
 ## Análisis estático del binario
